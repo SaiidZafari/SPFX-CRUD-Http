@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sz-test-http-client-side-solution",
+    "id": "97f92a25-e8c6-4dbf-9a0e-4525b236efb5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sz-test-http description"
+      },
+      "longDescription": {
+        "default": "sz-test-http description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sz-test-http Feature",
+        "description": "The feature that activates elements of the sz-test-http solution.",
+        "id": "411a70f1-737d-46b7-8a17-5891652f7f80",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sz-test-http.sppkg"
+  }
+}
